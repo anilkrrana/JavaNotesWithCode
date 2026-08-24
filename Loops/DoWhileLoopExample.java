@@ -29,6 +29,6 @@ public class DoWhileLoopExample {
             System.out.println("2. Settings");
             System.out.println("3. Exit");
             choice = sc.nextInt();
-        } while (choice != 3);
+        } while (choice != 5);
     }
 }
