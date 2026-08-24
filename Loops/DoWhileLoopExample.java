@@ -1,5 +1,7 @@
 package Loops;
 
+import java.util.Scanner;
+
 /*
  * Topic: Do-While Loop in Java
  *
@@ -20,13 +22,13 @@ package Loops;
 
 public class DoWhileLoopExample {
     public static void main(String[] args) {
-        int i = 1;
-
-        System.out.println("Do-While Loop Example");
-
+        int choice;
+        Scanner sc = new Scanner(System.in);
         do {
-            System.out.println("Value of i: " + i);
-            i++;
-        } while (i <= 5);
+            System.out.println("1. Start");
+            System.out.println("2. Settings");
+            System.out.println("3. Exit");
+            choice = sc.nextInt();
+        } while (choice != 3);
     }
 }
