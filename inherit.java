@@ -1,4 +1,4 @@
-package oops;
+// package oops;
 /*Java program to demonstrate abstraction using 
 an abstract class with both abtract and concrete methods.*/
 
@@ -15,7 +15,7 @@ class Student {
     }
 }
 
-public class Encapsulation {
+public class inherit {
     public static void main(String[] args){
         Student s = new Student();
         //setting value in the name member
