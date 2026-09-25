@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 class Employee{
+
+    //instance variable
     String name;
     double salary;
 
