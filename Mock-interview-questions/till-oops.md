@@ -1,9 +1,10 @@
-Java Mock Interview — Beginner to OOP
-ROUND 1 — Introduction/HR
+# Java Mock Interview — Beginner to OOP
+
+## ROUND 1 — Introduction/HR
 
 1. Tell me about yourself.
 
-Follow-up questions:
+**Follow-up questions:**
 
 What are you currently learning?
 Why did you choose Java?
@@ -19,12 +20,12 @@ Which Java topic are you most comfortable with?
 7. What was the most difficult concept you learned in Java?
 
 
-ROUND 2 — Java Fundamentals
+## ROUND 2 — Java Fundamentals
 
 8. What is Java?
 9. What are the main features of Java?
 
-Possible follow-ups:
+**Possible follow-ups:**
 
 What does platform independent mean?
 What does "Write Once, Run Anywhere" mean?
@@ -33,8 +34,9 @@ Why is Java called object-oriented?
 10. What is the difference between JDK, JRE and JVM?
 11. What happens when you compile a Java program?
 
-Expected discussion:
+**Expected discussion:**
 
+```text
 .java
   ↓
 javac
@@ -44,6 +46,7 @@ javac
 JVM
   ↓
 Program execution
+```
 
 12. What is the purpose of the main() method?
 13. Why is the main method written as:
@@ -58,12 +61,14 @@ Ask them to explain each keyword.
 18. What is the difference between char and String?
 19. Is String a primitive data type?
 20. What is a boolean?
-ROUND 3 — Input, Operators & Expressions
+## ROUND 3 — Input, Operators & Expressions
 21. How do you take input from the user in Java?
 
-Ask them to write:
+**Ask them to write:**
 
+```java
 Scanner sc = new Scanner(System.in);
+```
 22. Why do we use Scanner?
 23. What is the difference between:
 next()
@@ -81,13 +86,15 @@ This is a very good practical question based on what you taught them.
 29. What is the ! operator?
 30. What is short-circuit evaluation?
 
-Ask:
+**Ask:**
 
+```java
 if (a > 10 && b > 20)
+```
 
 Which condition is evaluated first?
 
-ROUND 4 — Conditional Statements
+## ROUND 4 — Conditional Statements
 31. What are conditional statements in Java?
 32. Difference between if, if-else, and else-if?
 33. When would you use switch instead of if-else?
@@ -96,13 +103,13 @@ ROUND 4 — Conditional Statements
 36. Write a program to find the largest of three numbers.
 37. Suppose income is given by the user. How would you calculate tax using different income slabs?
 
-This tests whether they can combine:
+**This tests whether they can combine:**
 
 input
 variables
 conditions
 arithmetic operators
-ROUND 5 — Loops
+## ROUND 5 — Loops
 38. Why do we use loops?
 39. What are the different loops in Java?
 while
@@ -119,7 +126,7 @@ for-each
 48. Write a program to count the digits of a number.
 49. Write a program to check whether a number is a palindrome.
 50. Write a program to print the multiplication table of a number.
-ROUND 6 — Arrays
+## ROUND 6 — Arrays
 51. What is an array?
 52. Why do we use arrays?
 53. How do you declare an array in Java?
@@ -127,9 +134,11 @@ ROUND 6 — Arrays
 55. What happens if you access an invalid array index?
 56. What is the difference between array length and last index?
 
-For example:
+**For example:**
 
+```java
 int[] arr = new int[5];
+```
 
 Ask:
 
@@ -141,7 +150,7 @@ What is the last index?
 57. How do you take array input from the user?
 58. How do you traverse an array?
 
-Ask them to demonstrate both:
+**Ask them to demonstrate both:**
 
 for
 
@@ -152,21 +161,25 @@ for-each
 60. Write a program to find the smallest element in an array.
 61. Write a program to calculate the sum of all array elements.
 62. Write a program to count even and odd numbers in an array.
-ROUND 7 — Methods
+## ROUND 7 — Methods
 63. What is a method?
 64. Why do we use methods?
 65. What is the difference between a method and a variable?
 66. What are parameters and arguments?
 
-For example:
+**For example:**
+```java
 int add(int a, int b)
-Ask:
+```
+**Ask:**
 What are a and b?
 What is the return type?
-Then:
+**Then:**
+```java
 add(10, 20);
+```
 
-Ask:
+**Ask:**
 
 What are 10 and 20?
 67. What is a return type?
@@ -179,7 +192,7 @@ What are 10 and 20?
 74. Write a method to find the largest number in an array.
 
 
-ROUND 8 — OOP Fundamentals
+## ROUND 8 — OOP Fundamentals
 
 Now tell the student:
 "Let's move to Object-Oriented Programming."
@@ -188,7 +201,7 @@ Now tell the student:
 76. Why do we use OOP?
 77. What are the four pillars of OOP?
 
-Expected:
+**Expected:**
 
 Encapsulation
 Inheritance
@@ -200,22 +213,26 @@ Abstraction
 80. What is the difference between a class and an object?
 81. Give a real-world example of a class and object.
 
-Example:
+**Example:**
 
+```text
 Class → Car
 Objects → BMW, Audi, Toyota
+```
 82. What is an instance of a class?
 83. What does the new keyword do?
 84. Where does an object get created?
 85. What is an object reference?
 
-For:
+**For:**
 
+```java
 Student s = new Student();
+```
 
 Ask the student to explain every part of this statement.
 
-ROUND 9 — Constructors
+## ROUND 9 — Constructors
 86. What is a constructor?
 87. Why do we use constructors?
 88. What is the difference between a constructor and a method?
@@ -225,12 +242,13 @@ ROUND 9 — Constructors
 92. What is a parameterized constructor?
 93. Can a class have multiple constructors?
 94. What is constructor overloading?
-ROUND 10 — this Keyword
+## ROUND 10 — this Keyword
 95. What is the this keyword?
 96. Why do we use this?
 
-Give:
+**Give:**
 
+```java
 class Student {
     String name;
 
@@ -238,8 +256,9 @@ class Student {
         this.name = name;
     }
 }
+```
 
-Ask:
+**Ask:**
 
 Why can't we simply write name = name?
 
@@ -249,7 +268,7 @@ Why can't we simply write name = name?
 
 This is a good advanced question for your students.
 
-ROUND 11 — Encapsulation
+## ROUND 11 — Encapsulation
 100. What is encapsulation?
 101. Why do we make fields private?
 102. How can we access private data?
@@ -258,19 +277,21 @@ ROUND 11 — Encapsulation
 105. Give a real-world example of encapsulation.
 106. How can we add validation using a setter?
 
-For example:
+**For example:**
 
+```java
 public void setAge(int age) {
     if (age > 0) {
         this.age = age;
     }
 }
+```
 
-Ask:
+**Ask:**
 
 Why is this better than directly making age public?
 
-ROUND 12 — Inheritance
+## ROUND 12 — Inheritance
 107. What is inheritance?
 108. Why do we use inheritance?
 109. Which keyword is used for inheritance in Java?
@@ -290,7 +311,7 @@ Car IS-A Vehicle
 116. What is code reusability?
 117. What is the super keyword?
 118. What is the difference between this and super?
-ROUND 13 — Polymorphism
+## ROUND 13 — Polymorphism
 119. What is polymorphism?
 120. What are the two common types of polymorphism discussed in Java?
 Compile-time → Method Overloading
@@ -311,7 +332,7 @@ a.sound();
 
 This is one of the most important OOP interview questions.
 
-ROUND 14 — Abstraction
+## ROUND 14 — Abstraction
 131. What is abstraction?
 132. Why do we use abstraction?
 133. How can we achieve abstraction in Java?
@@ -325,7 +346,7 @@ Interface
 139. Does an abstract method have a body?
 140. Who provides the implementation of an abstract method?
 
-ROUND 15 — Interfaces
+## ROUND 15 — Interfaces
 141. What is an interface?
 142. Why do we use interfaces?
 143. Which keyword is used to implement an interface?
@@ -335,49 +356,57 @@ implements
 146. Can an interface have default methods?
 147. Can an interface have static methods?
 148. Difference between abstract class and interface?
-ROUND 16 — Upcasting & Downcasting
+## ROUND 16 — Upcasting & Downcasting
 149. What is upcasting?
 
-Expected:
+**Expected:**
 
 Child → Parent
 
-Example:
+**Example:**
 
+```java
 Dog dog = new Dog();
 Animal animal = dog;
+```
 
 150. Is upcasting automatic?
 151. What is downcasting?
 
-Expected:
+**Expected:**
 
 Parent → Child
 
-Example:
+**Example:**
 
+```java
 Animal animal = new Dog();
 Dog dog = (Dog) animal;
+```
 
 
 152. Is downcasting automatic?
 153. What happens if we perform an invalid downcast?
 
-Example:
+**Example:**
 
+```java
 Animal animal = new Animal();
 Dog dog = (Dog) animal;
-ROUND 17 — instanceof
+```
+## ROUND 17 — instanceof
 154. What is instanceof?
 155. Why is instanceof useful?
 
-Example:
+**Example:**
 
+```java
 if (animal instanceof Dog) {
     Dog dog = (Dog) animal;
 }
+```
 156. Why should we check the object before downcasting?
-ROUND 18 — Object Class
+## ROUND 18 — Object Class
 157. What is the Object class?
 158. Is Object the parent of all Java classes?
 159. What is toString()?
@@ -388,26 +417,30 @@ ROUND 18 — Object Class
 
 For your current students, don't go extremely deep into hashing yet. Just check conceptual understanding.
 
-ROUND 19 — IS-A vs HAS-A
+## ROUND 19 — IS-A vs HAS-A
 164. What is an IS-A relationship?
 
-Example:
+**Example:**
 
+```text
 Dog IS-A Animal
+```
 165. What is a HAS-A relationship?
 
-Example:
+**Example:**
 
+```text
 Car HAS-A Engine
 Library HAS-A Book
+```
 166. What is the difference between IS-A and HAS-A?
 167. Which OOP concept is generally used to represent IS-A?
 168. How can we model HAS-A in Java?
-ROUND 20 — Mini-Project Interview
+## ROUND 20 — Mini-Project Interview
 
 Now use the projects they actually worked on.
 
-Food Delivery Project
+### Food Delivery Project
 169. Explain your Food Delivery project.
 
 Let the student explain the architecture without help.
@@ -426,33 +459,39 @@ Delivery
 176. Where did you use encapsulation?
 177. Where did you use polymorphism?
 
-Show:
+**Show:**
 
+```java
 Order order;
 
 order = new DineIn(...);
+```
 
-Then ask:
+**Then ask:**
 
 What is happening here?
 
 178. Why can we write:
+```java
 Order order = new Delivery(...);
+```
 179. Why do all three classes have their own calculateCharges()?
 180. What happens when this executes?
+```java
 order.calculateCharges();
+```
 181. How is runtime polymorphism happening in this project?
 182. Why did you use getters?
 183. Why did you use a constructor in Order?
 184. What would happen if Order was not abstract?
-ROUND 21 — Library Mini-Project
+## ROUND 21 — Library Mini-Project
 
-Ask:
+**Ask:**
 
 185. Explain your Library project.
 186. What classes did you create?
 
-Expected discussion:
+**Expected discussion:**
 
 Book
 Member
@@ -463,27 +502,27 @@ Library
 190. What does this mean?
 Library has Books
 191. Why did you use constructors in the Book and Member classes?
-ROUND 22 — Coding Round
+## ROUND 22 — Coding Round
 
 Give them one question at a time.
 
-Coding Question 1
+### Coding Question 1
 
 Write a program to check whether a number is prime.
 
-Coding Question 2
+### Coding Question 2
 
 Write a program to reverse a number.
 
-Coding Question 3
+### Coding Question 3
 
 Find the largest element in an array.
 
-Coding Question 4
+### Coding Question 4
 
 Count even and odd numbers in an array.
 
-Coding Question 5
+### Coding Question 5
 
 Create a Student class with:
 
@@ -493,7 +532,7 @@ course
 
 Create two objects and display their details.
 
-Coding Question 6
+### Coding Question 6
 
 Create:
 
@@ -504,12 +543,12 @@ Manager
 
 Use inheritance and method overriding.
 
-Expected:
+**Expected:**
 
 Ashish is developing software
 Mohit is testing software
 Deepak is managing the team
-Coding Question 7 — OOP Challenge
+### Coding Question 7 — OOP Challenge
 
 Create:
 
@@ -533,7 +572,7 @@ Payment payment;
 
 and runtime polymorphism.
 
-ROUND 23 — Rapid-Fire Round
+## ROUND 23 — Rapid-Fire Round
 
 This is excellent for the last 5–10 minutes.
 
