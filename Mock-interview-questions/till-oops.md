@@ -157,10 +157,12 @@ for
 and
 
 for-each
+
 59. Write a program to find the largest element in an array.
 60. Write a program to find the smallest element in an array.
 61. Write a program to calculate the sum of all array elements.
 62. Write a program to count even and odd numbers in an array.
+
 ## ROUND 7 — Methods
 63. What is a method?
 64. Why do we use methods?
@@ -182,6 +184,7 @@ add(10, 20);
 **Ask:**
 
 What are 10 and 20?
+
 67. What is a return type?
 68. What is the difference between void and int return types?
 69. Can a method accept multiple parameters?
@@ -308,6 +311,8 @@ Example:
 
 Dog IS-A Animal
 Car IS-A Vehicle
+```
+
 116. What is code reusability?
 117. What is the super keyword?
 118. What is the difference between this and super?
@@ -493,14 +498,19 @@ order.calculateCharges();
 
 **Expected discussion:**
 
-Book
-Member
-Library
+- Book
+- Member
+- Library
+
 187. What is the relationship between Library and Book?
 188. Is this IS-A or HAS-A?
 189. Why is this called a HAS-A relationship?
 190. What does this mean?
+
+```text
 Library has Books
+```
+
 191. Why did you use constructors in the Book and Member classes?
 ## ROUND 22 — Coding Round
 
